@@ -8,7 +8,7 @@ img{width: 94%;}
 a{color:white;}
 
 footer{width: 100%;
-height:161px;
+height:176px;
 color:white;
 background-color: darkblue;}
 
@@ -22,9 +22,13 @@ background-color: darkblue;}
     padding-top: 10px;
     border:1px solid black;
   background-color:gray}
-.footdiv{width: 100%;
-height:100px;
+.footdiv{width: 20%;
+height:162px;
+margin:auto;
 padding-top: 13px;}
+
+.mid{margin-left: 31%;}
+
 .mainimage{background-image: url('http://s1.1zoom.net/big0/371/Canada_Gardens_Queen_471739.jpg');
 width: 100%;
 height: 400px;
@@ -72,4 +76,15 @@ height: 80px;
 margin-bottom: 13px;
 margin-right: 16px;
 border: 2px solid black;
+}
+
+
+@media only screen and (max-width: 768px) {
+.name{padding-top: 17px;}
+.aboutcon{padding-left: 7%;
+    padding-right: 7%;}
+.about{height: 260px;}
+.mid{margin-right:5% }
+footer{height:240px; }
+.footdiv{height: 236px;}
 }
