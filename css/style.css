@@ -15,10 +15,11 @@ background-color: darkblue;}
 .hhd{width: 10px;}
 .isize{width: 19%;
     height: 272px;
-  margin-right: 202px;}
+  margin-right: 61px;}
+
 
     .galleiry{width: 100%;
-    height: 363px;
+    height: 271px;
     padding-top: 10px;
     border:1px solid black;
   background-color:gray}
@@ -162,10 +163,11 @@ margin-bottom: 13px;
 margin-right: 16px;
 border: 2px solid black;
 }
-@media screen and (max-width: 1040px) and (min-width: 1012px) {
 
-.name{padding-top: 43px;}
-.aboutcon{padding-left: 7%;
+@media screen and (max-width: 2712px) and (min-width: 1012px) {
+
+  .name{padding-top: 43px;}
+  .aboutcon{padding-left: 7%;
     padding-right: 7%;}
     .footdiv{height: 236px;}
     footer{height:240px; }
@@ -175,8 +177,7 @@ border: 2px solid black;
       .holder{width: 27%;}
       .galleiry{height: 255px;}
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 798px) and (min-width:457px){
 .name{padding-top: 17px;}
 .aboutcon{padding-left: 7%;
     padding-right: 7%;}
@@ -191,10 +192,3 @@ footer{height:240px; }
 height: 155px;}
 .galleiry{height: 201px;}
 }
-
-@media only screen and (max-width:799px) and (min-width: 600px){
-  .isize{ margin-right: 61px;}
-  .galleiry{height: 271px;}
-}
-
-
