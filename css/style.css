@@ -192,3 +192,9 @@ footer{height:240px; }
 height: 155px;}
 .galleiry{height: 201px;}
 }
+
+@media only screen and (max-width: 1044px) and (min-width:798px){
+.holder{width: 25%;}
+.isize{height: 218px;}
+}
+
