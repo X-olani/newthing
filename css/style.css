@@ -1,4 +1,4 @@
-nav{width: 100%auto;
+nav{width: 100%;
 height: 100px;
 background-color: darkblue;
 color:white;}
@@ -175,10 +175,10 @@ border: 2px solid black;
     .isize{margin-right:116px;
       height: 191px;}
       .holder{width: 27%;}
-      .galleiry{height: 255px;}
+      .galleiry{height: 380px;}
 }
 @media only screen and (max-width: 798px) and (min-width:457px){
-.name{padding-top: 17px;}
+.name{padding-top: 120px;}
 .aboutcon{padding-left: 7%;
     padding-right: 7%;}
 .about{height: 260px;}
@@ -198,3 +198,10 @@ height: 155px;}
 .isize{height: 218px;}
 }
 
+@media only screen and (max-width: 1012px) and (min-width:796px){
+.name{padding-top: 78px;}
+.aboutcon {
+    padding-left: 4%;
+    padding-right: 4%;}
+footer{height: 242px;}
+}
